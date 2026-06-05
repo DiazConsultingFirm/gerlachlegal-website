@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-label="Angela Elaine Gerlach — headshot pending">
+  <defs>
+    <style>
+      .bg { fill: #2a2622; }
+      .ring { fill: none; stroke: #f4ebdd; stroke-width: 1.25; opacity: 0.35; }
+      .mono { fill: #f4ebdd; font-family: Georgia, 'Times New Roman', serif; font-size: 88px; font-weight: 400; letter-spacing: 4px; }
+      .cap { fill: #c9b896; font-family: Georgia, 'Times New Roman', serif; font-size: 12px; letter-spacing: 1px; }
+      .sub { fill: #c9b896; font-family: Georgia, 'Times New Roman', serif; font-size: 10px; font-style: italic; letter-spacing: 0.5px; }
+    </style>
+  </defs>
+  <rect class="bg" width="300" height="300"/>
+  <circle class="ring" cx="150" cy="150" r="92"/>
+  <circle class="ring" cx="150" cy="150" r="100"/>
+  <text class="mono" x="150" y="170" text-anchor="middle">AG</text>
+  <text class="cap" x="150" y="252" text-anchor="middle">NEW HEADSHOT PENDING</text>
+  <text class="sub" x="150" y="270" text-anchor="middle">Angela review</text>
+</svg>
