@@ -1,0 +1,7 @@
+# robots.txt for Gerlach Legal (gerlachlegal.com)
+# Generated 2026-04-27
+
+User-agent: *
+Allow: /
+
+Sitemap: https://gerlachlegal.com/sitemap.xml
