@@ -340,7 +340,7 @@ nav.site-nav, nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; ba
 
 .hero-visual { position: relative; }
 .hero-photo { aspect-ratio: 4/5; width: 100%; border-radius: 2px; overflow: hidden; background: linear-gradient(135deg, #1A1A1A 0%, #3F4348 40%, #6E747C 100%); position: relative; }
-.hero-photo::after { content: ""; position: absolute; inset: 0; background: radial-gradient(ellipse at 30% 20%, rgba(216,220,224,0.25) 0%, transparent 50%), radial-gradient(ellipse at 70% 70%, rgba(144,152,160,0.2) 0%, transparent 45%); }
+.hero-photo::after { display: none; }
 .hero-photo-label { position: absolute; bottom: 20px; left: 20px; background: rgba(0,0,0,0.75); color: var(--cream); padding: 8px 14px; font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; border-radius: 2px; }
 .hero-photo-caption { position: absolute; bottom: -28px; left: -28px; background: var(--cream); padding: 22px 28px; max-width: 280px; border-left: 2px solid var(--gold); }
 .hero-photo-caption .kicker { font-size: 10px; letter-spacing: 1.8px; text-transform: uppercase; color: var(--gold-dark); margin-bottom: 6px; }
@@ -366,7 +366,7 @@ section.content { padding: 110px 0; }
 /* About */
 .about-grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: 80px; align-items: center; }
 .about-photo { aspect-ratio: 3/4; border-radius: 2px; overflow: hidden; background: linear-gradient(160deg, #141414 0%, #3F4348 50%, #6E747C 100%); position: relative; }
-.about-photo::after { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 40% 30%, rgba(255,255,255,0.15) 0%, transparent 60%); }
+.about-photo::after { display: none; }
 .about-photo-label { position: absolute; bottom: 20px; left: 20px; background: rgba(0,0,0,0.75); color: var(--cream); padding: 8px 14px; font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; border-radius: 2px; }
 .about-photo-frame { position: absolute; top: -20px; left: -20px; right: 20px; bottom: 20px; border: 1px solid var(--gold); z-index: -1; border-radius: 2px; }
 .about-wrap { position: relative; }
@@ -542,7 +542,7 @@ footer { background: var(--bone); padding: 56px 0 36px; border-top: 1px solid va
       </div>
       <div class="hero-visual">
         <div class="hero-photo">
-          <img src="assets/img/angela-hero-portrait.jpg" srcset="assets/img/angela-hero-portrait-md.jpg 400w, assets/img/angela-hero-portrait.jpg 800w" sizes="(max-width: 900px) 420px, 520px" alt="Angela Elaine Gerlach, Esq., founder of Gerlach Law, PLLC" loading="eager">
+          <img src="assets/img/angela-hero-portrait.jpg" srcset="assets/img/angela-hero-portrait-md.jpg 400w, assets/img/angela-hero-portrait.jpg 800w" sizes="(max-width: 900px) 420px, 520px" alt="Angela Elaine Gerlach, Esq., founder of Gerlach Law, PLLC" loading="eager" style="width:100%;height:100%;object-fit:cover;object-position:center top;display:block;">
         </div>
         <div class="hero-photo-caption">
           <div class="kicker"><strong>Angela Elaine Gerlach, Esq.</strong></div>
@@ -582,7 +582,7 @@ footer { background: var(--bone); padding: 56px 0 36px; border-top: 1px solid va
       <div class="about-wrap">
         <div class="about-photo-frame"></div>
         <div class="about-photo">
-          <img src="assets/img/angela-portrait.jpg" srcset="assets/img/angela-portrait-md.jpg 400w, assets/img/angela-portrait.jpg 800w" sizes="(max-width: 900px) 420px, 480px" alt="Angela Elaine Gerlach, Esq., founder of Gerlach Law, PLLC" style="width: 100%; height: auto; display: block; border-radius: 4px; aspect-ratio: 1/1; object-fit: cover; border: 5px solid #1a2a4a; box-shadow: 0 4px 18px rgba(26,42,74,0.18);">
+          <img src="assets/img/angela-portrait.jpg" srcset="assets/img/angela-portrait-md.jpg 400w, assets/img/angela-portrait.jpg 800w" sizes="(max-width: 900px) 420px, 480px" alt="Angela Elaine Gerlach, Esq., founder of Gerlach Law, PLLC" style="width: 100%; height: 100%; display: block; border-radius: 4px; object-fit: cover; object-position: center top; border: 5px solid #1a2a4a; box-shadow: 0 4px 18px rgba(26,42,74,0.18);">
         </div>
       </div>
       <div class="about-body">
